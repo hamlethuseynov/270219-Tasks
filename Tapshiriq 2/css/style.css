@@ -1,0 +1,28 @@
+
+div {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    padding: 100px 10px;
+    background: url(../img/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 420px 600px;
+}
+@font-face{
+    font-family: cambriafont;
+    src: url(../fonts/Cambria\ LiteBI_.ttf);
+    src: url(../fonts/Cambria\ LiteB_.ttf);
+    src: url(../fonts/Cambria\ LiteI_.ttf);
+    src: url(../fonts/Cambria\ Lite_.ttf);
+}
+@font-face{
+    font-family: dekorativ;
+    src: url(../fonts/Dekorativ.otf);
+}
+p {
+    font-family: cambriafont;
+    text-transform: uppercase;
+}
+h1,h3 {
+    font-family: dekorativ;
+}
